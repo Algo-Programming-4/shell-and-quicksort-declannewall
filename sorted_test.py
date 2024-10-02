@@ -14,7 +14,7 @@ def test_insertion():
     assert sorting.insertion(nums.copy()) == sorted(nums), "Insertion sort failed"
 
 def test_shell():
-    assert sorting.shell(nums.copy()) == sorted(nums), "Insertion sort failed"
+    assert sorting.shell(nums.copy()) == sorted(nums), "Sort sort failed"
 
 def test_quicksort():
-    assert sorting.quicksort(nums.copy()) == sorted(nums), "Insertion sort failed"
+    assert sorting.quicksort(nums.copy()) == sorted(nums), "Quicksort sort failed"
